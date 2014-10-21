@@ -35,7 +35,7 @@ drawpad.create_rectangle(0,h / 4,w,h,fill="darkgreen") #grass
 
 drawpad.create_rectangle(housex,housey,housex1,housey1,fill="#94000c") #main room
 drawpad.create_rectangle(housex + 25,housey,housex + 100,housey - 125,fill="#94000c") #chimney
-drawpad.create_rectangle(housex + 50,housey - 100,housex + 100,housey - 125,fill="#94000c")
+drawpad.create_rectangle(housex + 15,housey - 110,housex + 110,housey - 125,fill="#94000c")
 
 drawpad.create_polygon(housex, housey,housex + 167, housey - 145, housex1, housey,fill = "#661d00") #roof
 drawpad.create_line(housex, housey, housex + 167, housey - 145) #roof outline because create_polygon doesn't do lines
